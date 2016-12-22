@@ -15,6 +15,7 @@
 		3F9D4E491DDADFBB0013475A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F9D4E471DDADFBB0013475A /* LaunchScreen.storyboard */; };
 		3F9D4E541DDADFBB0013475A /* DispatchSemaphoresDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9D4E531DDADFBB0013475A /* DispatchSemaphoresDemoTests.m */; };
 		3F9D4E5F1DDADFBB0013475A /* DispatchSemaphoresDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9D4E5E1DDADFBB0013475A /* DispatchSemaphoresDemoUITests.m */; };
+		3FA0B1D31E0BDBC0002989F6 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA0B1D21E0BDBC0002989F6 /* Test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		3F9D4E5A1DDADFBB0013475A /* DispatchSemaphoresDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DispatchSemaphoresDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F9D4E5E1DDADFBB0013475A /* DispatchSemaphoresDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DispatchSemaphoresDemoUITests.m; sourceTree = "<group>"; };
 		3F9D4E601DDADFBB0013475A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FA0B1D11E0BDBC0002989F6 /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		3FA0B1D21E0BDBC0002989F6 /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				3F9D4E471DDADFBB0013475A /* LaunchScreen.storyboard */,
 				3F9D4E4A1DDADFBB0013475A /* Info.plist */,
 				3F9D4E391DDADFBB0013475A /* Supporting Files */,
+				3FA0B1D11E0BDBC0002989F6 /* Test.h */,
+				3FA0B1D21E0BDBC0002989F6 /* Test.m */,
 			);
 			path = DispatchSemaphoresDemo;
 			sourceTree = "<group>";
@@ -277,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F9D4E411DDADFBB0013475A /* ViewController.m in Sources */,
+				3FA0B1D31E0BDBC0002989F6 /* Test.m in Sources */,
 				3F9D4E3E1DDADFBB0013475A /* AppDelegate.m in Sources */,
 				3F9D4E3B1DDADFBB0013475A /* main.m in Sources */,
 			);
@@ -516,6 +522,7 @@
 				3F9D4E651DDADFBB0013475A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F9D4E661DDADFBB0013475A /* Build configuration list for PBXNativeTarget "DispatchSemaphoresDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +531,7 @@
 				3F9D4E681DDADFBB0013475A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F9D4E691DDADFBB0013475A /* Build configuration list for PBXNativeTarget "DispatchSemaphoresDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +540,7 @@
 				3F9D4E6B1DDADFBB0013475A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
